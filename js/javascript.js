@@ -13,7 +13,7 @@ function checkSize() {
      }
      else
      {
-          // $("#collapsing-content").collapse("show");
+          $("#collapsing-content").collapse("show");
           $("#img-box").show();
           $("#navigation-column").appendTo("#info-segment");
           $("#li-target").addClass("padding-top-target");
