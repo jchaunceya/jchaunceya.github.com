@@ -1,0 +1,134 @@
+.jumbotron {
+     margin: 0;
+     padding: 0;
+     color: white;
+     background: url("http://i.imgur.com/VOwHW3S.jpg");
+     background-size: cover;
+     background-attachment: scroll;
+     font-variant: small-caps;
+}
+
+a {
+     color: #474747;
+     text-decoration: none;
+}
+
+body {
+     color: #474747;
+}
+
+.jumbo-text {
+     padding: 0;
+}
+.large {
+     font-family: "Open Sans", sans-serif;
+     font-weight: 700;
+     font-size: 36px;
+     /*font-style: italic;*/
+     line-height: 36px;
+     letter-spacing: 1px;
+     text-align: center;
+     font-variant: small-caps;
+
+}
+
+.small {
+     font-family: "Open Sans", sans-serif;
+     font-weight: 700;
+     font-size: 1.25rem;
+     line-height: 1.25rem;
+     letter-spacing: 1px;
+     text-align: center;
+     font-variant: small-caps;
+}
+
+
+#img-box {
+     padding:  0.75rem;
+     display: inline-block;
+}
+
+.img-mod {
+     width: auto;
+     border: 5px white solid;
+     margin: 0 auto;
+     display: inline-block;
+     padding: 0;
+}
+
+ .text-link {
+     font-family: "Open Sans", sans-serif;
+     color: #474747;
+     font-weight: 800;
+     font-size: 1.5rem;
+     font-variant: small-caps;
+     display: block;
+     padding: 0;
+     margin-top: 0.3;
+}
+
+
+#navigation-column .text-link:hover {
+     color: #F7F7F9;
+     background-color: #474747;
+}
+
+#navigation-column {
+
+     background-color: #F7F7F9;
+     height: 100%;
+     margin: 0;
+     color: #474747;
+     /*padding-bottom: 0;
+     margin-bottom: 0;*/
+}
+
+.row {
+     margin: 0;
+}
+
+.nav {
+     text-align: center;
+     position: relative;
+}
+
+.fa-stack-1x:hover {
+     color: #474747;
+     background-color: #F7F7F9;
+}
+
+.jumbotron.darken {
+     background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url("http://i.imgur.com/VOwHW3S.jpg");
+}
+
+
+
+.card {
+     margin: 1rem;
+     /*border: none;*/
+     background-color: transparent;
+
+     height: 100%;
+     color: #474747;
+
+
+}
+
+#info-box {
+     height: 100%;
+
+}
+
+
+#toggle-button {
+     font-size: 1.5rem;
+}
+
+.padding-top-target {
+     padding-top: 1rem;
+}
