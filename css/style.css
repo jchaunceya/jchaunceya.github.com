@@ -23,18 +23,32 @@ body {
 .large {
      font-family: "Open Sans", sans-serif;
      font-weight: 700;
-     font-size: 36px;
+     font-size: 2.25rem;
      /*font-style: italic;*/
-     line-height: 36px;
+     line-height: 2.25rem;
      letter-spacing: 1px;
      text-align: center;
      font-variant: small-caps;
 
 }
 
+.large-lg {
+
+}
+
+#info-segment {
+     height: 100%;
+}
+
+.large-lg-css {
+     font-size: 3.5rem;
+     font-weight: 700;
+     line-height: 3.5rem;
+}
+
 .small {
      font-family: "Open Sans", sans-serif;
-     font-weight: 700;
+     font-weight: 400;
      font-size: 1.25rem;
      line-height: 1.25rem;
      letter-spacing: 1px;
@@ -42,10 +56,18 @@ body {
      font-variant: small-caps;
 }
 
+.small-lg {
+
+
+}
+
+.small-lg-css {
+     font-size: 1.75rem;
+     line-height: 2.0rem;
+}
 
 #img-box {
-     padding:  0.75rem;
-     display: inline-block;
+     padding:  2.5rem;
 }
 
 .img-mod {
@@ -59,12 +81,13 @@ body {
  .text-link {
      font-family: "Open Sans", sans-serif;
      color: #474747;
-     font-weight: 800;
-     font-size: 1.5rem;
+     font-weight: 700;
+     font-size: 2rem;
      font-variant: small-caps;
      display: block;
      padding: 0;
      margin-top: 0.3;
+
 }
 
 
@@ -79,8 +102,16 @@ body {
      height: 100%;
      margin: 0;
      color: #474747;
-     /*padding-bottom: 0;
-     margin-bottom: 0;*/
+     padding: .1em;
+
+
+
+}
+
+
+
+#collapsing-content {
+
 }
 
 .row {
@@ -126,9 +157,27 @@ body {
 
 
 #toggle-button {
-     color: #474747;
      font-size: 1.5rem;
 }
+
+.padding-top-target {
+     padding-top: 1rem;
+}
+
+#made-by {
+     padding: 0;
+     padding-left: 1rem;
+     margin: 0;
+     /*display: inline-block;
+     vertical-align: bottom;*/
+}
+#made-by-card {
+     border: none;
+     padding: 0;
+     margin: 0;
+}
+
+html, body {height: 100%;}
 
 .padding-top-target {
      padding-top: 1rem;
