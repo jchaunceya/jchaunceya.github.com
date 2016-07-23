@@ -1,5 +1,7 @@
-$(document).ready(function() {
 
+
+
+$(document).ready(function() {
      checkSize();
      $(window).resize(checkSize);
 });
@@ -7,34 +9,25 @@ $(document).ready(function() {
 
 
 function checkSize() {
-
      if ($(document).width() <= 543) // hide collapse show button
      {
-          if ($("#name-title-target").attr("font-size") == "3.5rem")
-          {
-               $(".large-lg").removeClass("large-lg-css");
-               $(".small-lg").removeClass("small-lg-css");
-          }
-          $("#navigation-column").css("height", "100%");
+          $(".large-lg").removeClass("large-lg-css");            // toggles larger font sizes OFF
+          $(".small-lg").removeClass("small-lg-css");
+          $("#navigation-column").css("height", "auto");         // resets nav-height to
           $("#img-box").hide();
           $("#navigation-column").prependTo("#info-segment");
+          $("#li-target").removeClass("padding-top-target");
      }
      else
      {
           if ($(document).width() >= 768)
-          {
                $("#img-box").show();
-
-               $(".large-lg").addClass("large-lg-css");
-               $(".small-lg").addClass("small-lg-css");
-
-          }
-          else {
-
+          else
                $("#img-box").hide();
 
-
-          }
+          $(".large-lg").addClass("large-lg-css");               // toggles larger font sizes ON
+          $(".small-lg").addClass("small-lg-css");
+          $("#li-target").addClass("padding-top-target");
           var $heightOfInfo = $("#info-segment").height();
           $("#navigation-column").css("height", $heightOfInfo);
           $("#collapsing-content").collapse("show");
