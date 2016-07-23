@@ -13,27 +13,14 @@ a {
      text-decoration: none;
 }
 
-body {
-     color: #474747;
-}
-
-.jumbo-text {
-     padding: 0;
-}
 .large {
      font-family: "Open Sans", sans-serif;
      font-weight: 700;
      font-size: 2.25rem;
-     /*font-style: italic;*/
      line-height: 2.25rem;
      letter-spacing: 1px;
      text-align: center;
      font-variant: small-caps;
-
-}
-
-.large-lg {
-
 }
 
 #info-segment {
@@ -57,8 +44,6 @@ body {
 }
 
 .small-lg {
-
-
 }
 
 .small-lg-css {
@@ -82,14 +67,13 @@ body {
      font-family: "Open Sans", sans-serif;
      color: #474747;
      font-weight: 700;
-     font-size: 2rem;
+     font-size: 1.4rem;
      font-variant: small-caps;
      display: block;
      padding: 0;
+
      margin-top: 0.3;
-
 }
-
 
 #navigation-column .text-link:hover {
      color: #F7F7F9;
@@ -97,30 +81,15 @@ body {
 }
 
 #navigation-column {
-
      background-color: #F7F7F9;
      height: 100%;
      margin: 0;
      color: #474747;
-     padding: .1em;
-
-
-
-}
-
-
-
-#collapsing-content {
-
+     padding: .2em;
 }
 
 .row {
      margin: 0;
-}
-
-.nav {
-     text-align: center;
-     position: relative;
 }
 
 .fa-stack-1x:hover {
@@ -137,27 +106,18 @@ body {
   url("http://i.imgur.com/VOwHW3S.jpg");
 }
 
-
-
 .card {
      margin: 1rem;
-     /*border: none;*/
      background-color: transparent;
-
      height: 100%;
      color: #474747;
-
-
 }
-
-#info-box {
-     height: 100%;
-
-}
-
 
 #toggle-button {
      font-size: 1.5rem;
+     padding: .1em .1em .1em 1rem;
+     color: #474747;
+
 }
 
 .padding-top-target {
@@ -168,17 +128,18 @@ body {
      padding: 0;
      padding-left: 1rem;
      margin: 0;
-     /*display: inline-block;
-     vertical-align: bottom;*/
 }
+
 #made-by-card {
      border: none;
      padding: 0;
      margin: 0;
 }
 
-html, body {height: 100%;}
-
-.padding-top-target {
-     padding-top: 1rem;
+#info-segment hr {
+     padding: 0;
+     margin-top: 0.5rem;
+     margin-bottom: 0.5rem;
 }
+
+html, body {height: 100%;}
