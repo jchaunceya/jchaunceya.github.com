@@ -4,8 +4,14 @@
      color: white;
      background: url("http://i.imgur.com/VOwHW3S.jpg");
      background-size: cover;
-     background-attachment: scroll;
+     background-attachment: center;
      font-variant: small-caps;
+     /*font-style: italic;*/
+}
+
+.jumbotron h1 {
+     font-style: normal;
+
 }
 
 a {
@@ -13,6 +19,9 @@ a {
      text-decoration: none;
 }
 
+.jumbo-text {
+     padding: 0;
+}
 .large {
      font-family: "Open Sans", sans-serif;
      font-weight: 700;
@@ -20,11 +29,22 @@ a {
      line-height: 2.25rem;
      letter-spacing: 1px;
      text-align: center;
-     font-variant: small-caps;
+     font-style: italic;
 }
+
+#collapsing-content {
+     padding-right: 0;
+}
+
+
 
 #info-segment {
      height: 100%;
+}
+
+#info-box {
+     padding: 0;
+     padding-top: 1rem;
 }
 
 .large-lg-css {
@@ -41,6 +61,8 @@ a {
      letter-spacing: 1px;
      text-align: center;
      font-variant: small-caps;
+     font-style: italic;
+
 }
 
 .small-lg {
@@ -48,7 +70,7 @@ a {
 
 .small-lg-css {
      font-size: 1.75rem;
-     line-height: 2.0rem;
+     line-height: 1.75rem;
 }
 
 #img-box {
@@ -66,13 +88,16 @@ a {
  .text-link {
      font-family: "Open Sans", sans-serif;
      color: #474747;
-     font-weight: 700;
-     font-size: 1.4rem;
-     font-variant: small-caps;
+     font-weight: 400;
+     font-size: 1.6rem;
      display: block;
      padding: 0;
+     font-variant: small-caps;
+     margin-top: 0;
+}
 
-     margin-top: 0.3;
+.card .text-link {
+     color: white;
 }
 
 #navigation-column .text-link:hover {
@@ -81,11 +106,10 @@ a {
 }
 
 #navigation-column {
-     background-color: #F7F7F9;
      height: 100%;
      margin: 0;
      color: #474747;
-     padding: .2em;
+     padding: 0 .5em 0 .5em;
 }
 
 .row {
@@ -97,7 +121,26 @@ a {
      background-color: #F7F7F9;
 }
 
-.jumbotron.darken {
+
+.card {
+     /*padding: 1rem;*/
+     color: white;
+     /*background: url("http://i.imgur.com/VOwHW3S.jpg");
+     background-size: cover;
+     background-attachment: center;
+     background-position: center;*/
+     /*height: 100%;*/
+     background-image: linear-gradient(45deg, #22264b
+, #b56969 50%, #e6cf8b
+
+
+);
+
+
+}
+
+
+.darken {
      background-image:
   linear-gradient(
     rgba(0, 0, 0, 0.6),
@@ -106,12 +149,10 @@ a {
   url("http://i.imgur.com/VOwHW3S.jpg");
 }
 
-.card {
-     margin: 1rem;
-     background-color: transparent;
-     height: 100%;
-     color: #474747;
+.card * {
+     padding: 1rem;
 }
+
 
 #toggle-button {
      font-size: 1.5rem;
@@ -134,12 +175,15 @@ a {
      border: none;
      padding: 0;
      margin: 0;
+     background: none;
+     color: #474747;
 }
 
 #info-segment hr {
      padding: 0;
-     margin-top: 0.5rem;
-     margin-bottom: 0.5rem;
+     margin-top: 0.2rem;
+     margin-bottom: 0.2rem;
 }
 
 html, body {height: 100%;}
+
