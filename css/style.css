@@ -1,141 +1,105 @@
+body {
+     color: white;
+     font-family: "Oxygen", sans-serif;
+}
+
 .jumbotron {
-     margin: 0;
+     font-family: "Montserrat", sans-serif;
+
      padding: 0;
      color: white;
      background: url("http://i.imgur.com/VOwHW3S.jpg");
      background-size: cover;
      background-attachment: center;
-     font-variant: small-caps;
-     /*font-style: italic;*/
+
 }
 
 .jumbotron h1 {
-     font-style: normal;
-
-}
-
-a {
-     color: #474747;
-     text-decoration: none;
-}
-
-.jumbo-text {
-     padding: 0;
-}
-.large {
-     font-family: "Open Sans", sans-serif;
+     font-size: 3em;
+     line-height: 1.5em;
      font-weight: 700;
-     font-size: 2.25rem;
-     line-height: 2.25rem;
-     letter-spacing: 1px;
-     text-align: center;
-     font-style: italic;
 }
+
+.jumbotron p {
+     font-family: "Open Sans", sans-serif;
+     color: #F7F7F9;
+     font-size: 1.3em;
+     line-height: 1.3em;
+     font-weight: 300;
+     display: block;
+}
+
+.jumbotron span {
+     font-weight: 700;
+}
+
+.jumbotron .jumbo-text {
+     padding-top: 1rem;
+     padding-bottom: 2rem;
+}
+
+a:hover {
+     text-decoration: none;
+     color: currentColor;
+}
+
+
+
+
 
 #collapsing-content {
-     padding-right: 0;
+
 }
-
-
 
 #info-segment {
      height: 100%;
 }
 
-#info-box {
-     padding: 0;
-     padding-top: 1rem;
-}
-
-.large-lg-css {
-     font-size: 3.5rem;
-     font-weight: 700;
-     line-height: 3.5rem;
-}
-
-.small {
-     font-family: "Open Sans", sans-serif;
-     font-weight: 400;
-     font-size: 1.25rem;
-     line-height: 1.25rem;
-     letter-spacing: 1px;
-     text-align: center;
-     font-variant: small-caps;
-     font-style: italic;
-
-}
-
-.small-lg {
-}
-
-.small-lg-css {
-     font-size: 1.75rem;
-     line-height: 1.75rem;
-}
-
-#img-box {
-     padding:  2.5rem;
-}
-
-.img-mod {
-     width: auto;
-     border: 5px white solid;
-     margin: 0 auto;
-     display: inline-block;
-     padding: 0;
-}
-
  .text-link {
-     font-family: "Open Sans", sans-serif;
-     color: #474747;
+     font-family: "Montserrat";
      font-weight: 400;
-     font-size: 1.6rem;
-     display: block;
+     color: inherit;
+     display: inline;
+     font-size: 1.7em;
+     line-height: 1.7em;
+     /*font-variant: small-caps;*/
+     margin: 0;
      padding: 0;
-     font-variant: small-caps;
-     margin-top: 0;
+     padding-top: .4em;
+     padding-bottom: .4em;
+
 }
 
-.card .text-link {
-     color: white;
-}
 
-#navigation-column .text-link:hover {
-     color: #F7F7F9;
-     background-color: #474747;
+
+.nav-item {
+
 }
 
 #navigation-column {
-     height: 100%;
-     margin: 0;
-     color: #474747;
-     padding: 0 .5em 0 .5em;
+     padding-left: 0;
+     padding-right: 0;
+
+}
+
+#collapsing-content {
+}
+
+.nav {
+
 }
 
 .row {
-     margin: 0;
-}
-
-.fa-stack-1x:hover {
-     color: #474747;
-     background-color: transparent;
+     margin: auto;
+     padding: auto;
 }
 
 
-.card {
-     /*padding: 1rem;*/
-     color: white;
-     /*background: url("http://i.imgur.com/VOwHW3S.jpg");
-     background-size: cover;
-     background-attachment: center;
-     background-position: center;*/
-     /*height: 100%;*/
-     background-image: linear-gradient(45deg, #22264b
-, #b56969 50%, #e6cf8b
-
-
-);
-
+.card-grad {
+     /*background-image: linear-gradient(45deg, #22264b, #b56969 50%, #e6cf8b);*/
+     border: 0;
+     border-radius: 0;
+     color: #000;
 
 }
 
@@ -149,15 +113,15 @@ a {
   url("http://i.imgur.com/VOwHW3S.jpg");
 }
 
-.card * {
-     padding: 1rem;
-}
 
 
 #toggle-button {
-     font-size: 1.5rem;
-     padding: .1em .1em .1em 1rem;
-     color: #474747;
+     font-size: 1.75rem;
+     /*padding: .5rem 1rem .5rem 1rem;*/
+     background-color: white;
+     color: #FFF;
+     background-color: #000;
+     border-radius: 0;
 
 }
 
@@ -172,18 +136,57 @@ a {
 }
 
 #made-by-card {
+     font-family: inherit;
      border: none;
      padding: 0;
      margin: 0;
      background: none;
      color: #474747;
+     /*float: left;*/
 }
 
-#info-segment hr {
+#jumbo-one {
+}
+
+#jumbo-two {
+}
+
+#jumbo-three {
+}
+
+
+#quote-text {
+     color: inherit;
+     font-family: "Cardo";
+     font-weight: 400;
+     font-size: 1.3em;
+     line-height: 1.3em;
+     /*font-style: italic;*/
+}
+
+footer {
+     font-family: "Cardo";
      padding: 0;
-     margin-top: 0.2rem;
-     margin-bottom: 0.2rem;
+     font-size: 1.3em;
+     font-weight: 700;
 }
 
-html, body {height: 100%;}
+.fa-icon {
 
+     display: inline;
+}
+
+#fixed-navbar-shit {
+     padding: 0;
+     margin: 0;
+}
+
+.nav-link:hover {
+     font-weight: 700;
+     /*border: 1px solid black;*/
+}
+
+.nav-item {
+     padding: 0;
+     margin: 0;
+}
