@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <head>
 
@@ -11,165 +11,189 @@
      <link rel="stylesheet" type="text/css" href="./css/animate.css">
 
      <link href="https://fonts.googleapis.com/css?family=Montserrat Alternates" rel="stylesheet" type="text/css">
-     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css">
+     <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet" type="text/css">
      <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" type="text/css">
      <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,400italic,500,500italic,800,700italic,600,600italic,700,700italic,800italic' rel='stylesheet' type='text/css'>
      <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-          <div class="jumbotron jumbotron-fluid darken img-jumbo-background" id="jumbo">
-               <div class="row" id="jumbo-row">
-                    <div class="col-lg-9 col-md-8 col-xs-12" id="jumbotron-1">
-                         <div class="jumbo-text container-fluid" id="jumbotron-text-box">
-                              <h1 class="m-a-1 large large-lg" id="name-title-target">John Atherton</h1>
-                              <hr color="white">
-                              <p class="small small-lg">student at UCLA</p>
-                              <p class="m-a-1 small small-lg">Los Angeles based</p>
-                              <p class="small small-lg">mobile-first front-end dev</p>
+     <div class="row" id="fixed-navbar-shit">
+                    <div class="col-xs-12" id="navigation-column">
+                         <div id="navigation-box">
+                              <a class="btn hidden-sm-up text-xs-left" role="button" href="#collapsing-content" data-toggle="collapse" aria-expanded="false" aria-controls="#collapsing-content" id="toggle-button">&#9776;</a>
+                              <ul class="collapse nav nav-inline container-fluid text-xs-center" id="collapsing-content" data-parent="#collapsing-content">
+                                   <li class="nav-item" id="li-target"><a class="nav-link btn text-link" href="#" role="button" id="link-target">about</a></li>
+                                   <li class="nav-item"><a class="nav-link btn text-link" href="#" role="button">experience</a></li>
+                                   <li class="nav-item"><a class="nav-link btn text-link" href="#" role="button">portfolio</a></li>
+                                   <li class="nav-item"><a class="nav-link btn text-link" href="https://docs.google.com/document/d/14WFvARNsuLltEgw-l9pIYWkPfpq7bBkY1DfaoS0vvyE/edit?usp=sharing" role="button" target="_blank">resume</a></li>
+                                   <li class="nav-item"><a class="nav-link btn text-link dropdown-toggler" data-target="#dropdown-menu-1" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" href="#" role="button">contact</a></li>
+                                   <!-- <li class="nav-item text-link fa-icon">
+                                             <a href="https://www.facebook.com/jack.c.atherton" class="nav-link">
+                                                  <span class="fa-stack">
+                                                       <i class="fa fa-circle  fa-stack-2x" aria-hidden="true"></i>
+                                                       <i class="fa fa-facebook fa-stack-1x"></i>
+                                                  </span>
+                                             </a>
+                                   </li>
+                                   <li class="nav-item text-link fa-icon">
+                                             <a href="https://www.instagram.com/jchaunceya/?ref=badge" class="nav-link">
+                                                  <span class="fa-stack">
+                                                       <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                                                       <i class="fa fa-instagram fa-stack-1x"></i>
+                                                  </span>
+                                             </a>
+                                   </li>
+                                   <li class="nav-item text-link fa-icon">
+                                             <a href="https://github.com/jchaunceya" class="nav-link">
+                                                  <span class="fa-stack">
+                                                       <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                                                       <i class="fa fa-github fa-stack-1x" aria-hidden="true"></i>
+                                                  </span>
+                                             </a>
+                                   </li>
+                                   <li class="nav-item text-link fa-icon">
+                                             <a href="https://www.linkedin.com/in/john-atherton-45a7b0120" class="nav-link">
+                                                  <span class="fa-stack">
+                                                       <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                                                       <i class="fa fa-linkedin fa-stack-1x" aria-hidden="true"></i>
+                                                  </span>
+                                             </a>
+                                   </li> -->
+
+                              </ul>
                          </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-12" id="img-box">
-                         <img class="img-fluid img-circle img-mod" id="jumbotron-image" src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/11215156_10203353106227723_1202713556263706383_n.jpg?oh=357ca2f24a842c33a8dd9604722ca685&oe=583776BE">
+               </div>
+
+
+          <div class="jumbotron jumbotron-fluid darken img-jumbo-background" id="jumbo">
+               <div class="row text-xs-center" id="jumbo-row">
+                    <div class="col-xs-12" id="jumbotron-1">
+                         <div class="jumbo-text container text-xs-left" id="jumbotron-text-box">
+                              <h1>hello!</h1>
+                              <p id="jumbo-one">my name is <span>John Atherton</span> and i'm a student at <span>UCLA</span>, as well as a music freak, a cooking addict, and a powerlifter. i love solving problems and making things work!</p>
+                              <p>my goal is to be a <span>mobile first front-end web developer!</span></p>
+                         </div>
                     </div>
                </div>
+               <!-- 
+                                   <li class="nav-item fa-icon">
+                                             <a href="https://www.facebook.com/jack.c.atherton" class="nav-link">
+                                                  <span class="fa-stack fa-lg">
+                                                       <i class="fa fa-circle  fa-stack-2x" aria-hidden="true"></i>
+                                                       <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                                  </span>
+                                             </a>
+                                   </li>
+                                   <li class="nav-item fa-icon">
+                                             <a href="https://www.instagram.com/jchaunceya/?ref=badge" class="nav-link">
+                                                  <span class="fa-stack fa-lg">
+                                                       <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                                                       <i class="fa fa-instagram fa-stack-1x"></i>
+                                                  </span>
+                                             </a>
+                                   </li>
+                                   <li class="nav-item fa-icon">
+                                             <a href="https://github.com/jchaunceya" class="nav-link">
+                                                  <span class="fa-stack fa-lg">
+                                                       <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                                                       <i class="fa fa-github fa-stack-1x" aria-hidden="true"></i>
+                                                  </span>
+                                             </a>
+                                   </li>
+                                   <li class="nav-item fa-icon">
+                                             <a href="https://www.linkedin.com/in/john-atherton-45a7b0120" class="nav-link">
+                                                  <span class="fa-stack fa-lg">
+                                                       <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                                                       <i class="fa fa-linkedin fa-stack-1x" aria-hidden="true"></i>
+                                                  </span>
+                                             </a>
+                                   </li> -->
      </div>
-     <div>
+
+     <div class="container-fluid">
 
      <div class="row" id="info-segment">
-          <div class="col-lg-9 col-sm-8 col-xs-12 text-link" id="info-box">
-               <div class="row">
-                    <div class="col-sm-6 col-xs-12">
-                         <div class="card card-block text-xs-center" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
-                         </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-12">
-                         <div class="card card-block text-xs-center" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
-                         </div>
-                    </div>
-               </div>
 
-               <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                         <div class="card card-block text-xs-center darken" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
+          <div class="row">
+               <div class="col-xs-12">
+                    <div class="card card-grad">
+                         <div class="card-block">
+                              <blockquote class="card-blockquote">
+                                   <p id="quote-text">“Let us toast to animal pleasures, to escapism, to rain on the roof and instant coffee, to unemployment insurance and library cards, to absinthe and good-hearted landlords, to music and warm bodies and contraceptives... and to the "good life", whatever it is and wherever it happens to be.”</p>
+                                   <footer id="quote-footer"> - Hunter S Thompson</footer>
+                              </blockquote>
                          </div>
                     </div>
-                    <div class="col-md-6 col-xs-12">
-                         <div class="card card-block text-xs-center darken" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
-                         </div>
-                    </div>
-               </div>
-               <div class="row">
-                    <div class="col-sm-6 col-xs-12">
-                         <div class="card card-block text-xs-center darken" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
-                         </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-12">
-                         <div class="card card-block text-xs-center darken" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
-                         </div>
-                    </div>
-               </div>
-               <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                         <div class="card card-block text-xs-center darken" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
-                         </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                         <div class="card card-block text-xs-center darken" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
-                         </div>
-                    </div>
-               </div>
-               <div class="row">
-                    <div class="col-sm-6 col-xs-12">
-                         <div class="card card-block text-xs-center darken" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
-                         </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-12">
-                         <div class="card card-block text-xs-center darken" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
-                         </div>
-                    </div>
-               </div>
-               <div class="row">
-                    <div class="col-md-4 col-xs-12">
-                         <div class="card card-block text-xs-center darken" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
-                         </div>
-                    </div>
-                    <div class="col-md-8 col-xs-12">
-                         <div class="card card-block text-xs-center darken" id="card-block-coming-soon">
-                              <h1 class="text-link">Coming soon</h1>
-                         </div>
-                    </div>
-               </div>
-               <div class="card card-block darken" id="made-by-card">
-                    <p class="p-t-1 text-xs-center small" id="made-by"><small class="muted">Made by John Atherton in 2016</small></p>
                </div>
           </div>
-          <div class="col-lg-3 col-sm-4 col-xs-12" id="navigation-column">
-               <div id="navigation-box">
-                    <a class="btn hidden-sm-up text-xs-left" role="button" href="#collapsing-content" data-toggle="collapse" aria-expanded="false" aria-controls="#collapsing-content" id="toggle-button">&#9776;</a>
-                    <ul class="collapse nav container-fluid text-xs-center" id="collapsing-content" data-parent="#collapsing-content">
-                         <li class="nav-item padding-top-target" id="li-target"><a class="nav-link btn text-link" href="#" role="button">About</a></li>
-                         <hr>
-                         <li class="nav-item"><a class="nav-link btn text-link" href="#" role="button">Experience</a></li>
-                         <hr>
-                         <li class="nav-item"><a class="nav-link btn text-link" href="#" role="button">Portfolio</a></li>
-                         <hr>
-                         <li class="nav-item"><a class="nav-link btn text-link" href="#" role="button">Resume</a></li>
-                         <hr>
-                         <li class="nav-item">
-                                   <a href="https://www.facebook.com/jack.c.atherton" class="nav-link">
-                                        <span class="fa-stack fa-lg">
-                                             <i class="fa fa-circle  fa-stack-2x" aria-hidden="true"></i>
-                                             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                   </a>
-                                   <a href="https://www.instagram.com/jchaunceya/?ref=badge" class="nav-link">
-                                        <span class="fa-stack fa-lg">
-                                             <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-                                             <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                   </a>
-                                   <a href="https://github.com/jchaunceya" class="nav-link">
-                                        <span class="fa-stack fa-lg">
-                                             <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-                                             <i class="fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i>
-                                        </span>
-                                   </a>
-                                   <a href="https://www.linkedin.com/in/john-atherton-45a7b0120" class="nav-link">
-                                        <span class="fa-stack fa-lg">
-                                             <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-                                             <i class="fa fa-linkedin fa-stack-1x fa-inverse" aria-hidden="true"></i>
-                                        </span>
-                                   </a>
-                         </li>
-                         <hr>
-                         <li class="nav-item"><a class="nav-link btn text-link dropdown-toggler" data-target="#dropdown-menu-1" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" href="#" role="button">Contact</a></li>
-                    </ul>
+          <div class="row">
+               <div class="col-xs-12">
+                    <div class="card card-grad">
+                         <div class="card-block">
+                              <blockquote class="card-blockquote">
+                                   <p id="quote-text">“Let us toast to animal pleasures, to escapism, to rain on the roof and instant coffee, to unemployment insurance and library cards, to absinthe and good-hearted landlords, to music and warm bodies and contraceptives... and to the "good life", whatever it is and wherever it happens to be.”</p>
+                                   <footer id="quote-footer"> - Hunter S Thompson</footer>
+                              </blockquote>
+                         </div>
+                    </div>
                </div>
           </div>
+          <div class="row">
+               <div class="col-xs-12">
+                    <div class="card card-grad">
+                         <div class="card-block">
+                              <blockquote class="card-blockquote">
+                                   <p id="quote-text">“Let us toast to animal pleasures, to escapism, to rain on the roof and instant coffee, to unemployment insurance and library cards, to absinthe and good-hearted landlords, to music and warm bodies and contraceptives... and to the "good life", whatever it is and wherever it happens to be.”</p>
+                                   <footer id="quote-footer"> - Hunter S Thompson</footer>
+                              </blockquote>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-xs-12">
+                    <div class="card card-grad">
+                         <div class="card-block">
+                              <blockquote class="card-blockquote">
+                                   <p id="quote-text">“Let us toast to animal pleasures, to escapism, to rain on the roof and instant coffee, to unemployment insurance and library cards, to absinthe and good-hearted landlords, to music and warm bodies and contraceptives... and to the "good life", whatever it is and wherever it happens to be.”</p>
+                                   <footer id="quote-footer"> - Hunter S Thompson</footer>
+                              </blockquote>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-xs-12">
+                    <div class="card card-grad">
+                         <div class="card-block">
+                              <blockquote class="card-blockquote">
+                                   <p id="quote-text">“Let us toast to animal pleasures, to escapism, to rain on the roof and instant coffee, to unemployment insurance and library cards, to absinthe and good-hearted landlords, to music and warm bodies and contraceptives... and to the "good life", whatever it is and wherever it happens to be.”</p>
+                                   <footer id="quote-footer"> - Hunter S Thompson</footer>
+                              </blockquote>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
      </div>
+</div>
 
-
+<div class="card card-block darken" id="made-by-card">
+     <p class="p-t-1 text-xs-center small" id="made-by"><small class="muted">Made by John Atherton in 2016</small></p>
 </div>
 
 
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" ></script>
+     <script type="text/javascript" src="./js/jquery.pin.js"></script>
+
      <script type="text/javascript" src="./js/javascript.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
      <script src="https://use.fontawesome.com/5545502c6e.js"></script>
 
 </body>
 </html>
-</html>
+
 
 
