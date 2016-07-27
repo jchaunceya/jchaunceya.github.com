@@ -1,9 +1,8 @@
+
 $(document).ready(function() {
-     $(".card").removeClass("darken");
      $width = widthDeterminer();
      doSomething($width);
      $(window).resize(function() {
-          heightSetter();
           var $newWidth = widthDeterminer();
           if ($newWidth != $width)
           {
@@ -15,57 +14,63 @@ $(document).ready(function() {
      });
 });
 
+function navbarResizer() {
+     if (widthDeterminer() == "xs")
+     {
+          $("#jumbo").css('margin-top', '56px');
+          $("#jumbo").css('padding-top', "1em");
+     }
+     else {
+          $("#jumbo").css('margin-top', "46px");
+          $("#jumbo").css('padding-top', "1em");
+     }
+};
 
 function doSomething($size) {
      if ($size == "xs")
-     {
-          makeFontSmall();
-          $("#img-box").hide();
-          $("#li-target").removeClass("padding-top-target");
-          $("#navigation-column").appendTo("#jumbo");
-
-          $("#toggle-button").on("click", function() {
-               $("#collapsing-content").on("shown.bs.collapse", function() {
-                    if (widthDeterminer() == "xs")
-                         $("#jumbo-row").slideUp("fast");
-               });
-               $("#collapsing-content").on("hidden.bs.collapse", function() {
-                    $("#jumbo-row").slideDown("fast");
-               });
-          });
-          $(".text-link").css("height", "44px");
-     }
+          xsSettings();
      else
-     {
-          if ($size == "sm")
-          {
-               $("#img-box").hide();
-          }
-          else
-          {
-               $("#img-box:hidden").show();
-               makeFontLarge();
-          }
-          $("#collapsing-content:hidden").collapse("show");
-          $("#jumbo:hidden").slideDown();
-          $("#li-target").addClass("padding-top-target");
-          $("#navigation-column").appendTo("#info-segment");
-     }
-     heightSetter();
-
+          smUpSettings();
 };
 
-function heightSetter() {
-     var $size = widthDeterminer();
-     if ($size == "xs")
-     {
-          $("#navigation-column").css("height", "auto");         // resets nav-height to
-     }
-     else {
-          var $heightOfInfo = $("#info-box").height();
-          $("#navigation-column").css("height", $heightOfInfo);
+function xsSettings() {
+     $("#collapsing-content").collapse("hide");
 
-     }
+     makeFontSmall();
+
+     $("#img-box").hide();
+     $("#navigation-column").prependTo("#fixed-navbar-shit");
+
+     $("#navigation-column").css("position", "fixed");
+     $("#navigation-column").css("z-index", "2147483647");
+
+     $(".nav").removeClass("nav-inline");
+     $("#navigation-column").css("background-color", "#F7F7F9");
+     $("#navigation-column text-link:hover").css("color", "#474747");
+     $("#navigation-column").css("color", "#474747");
+
+     navbarResizer();
+};
+
+function smUpSettings() {
+     $(".nav").addClass("nav-inline");
+     $("#collapsing-content:hidden").collapse("show");
+
+     $("#navigation-column").css("z-index", "2147483647");
+     if ($width == "md")
+          makeFontLarge();
+     else
+          makeFontSmall();
+
+     $("#navigation-column").prependTo("#fixed-navbar-shit");
+     $("#navigation-column").css("background-color", "#000");
+     $("#navigation-column").css("color", "#FFF");
+
+     $("#navigation-column").addClass("card-grad");
+     $("#navigation-column").css("position", "fixed");
+     $("#jumbo").css("margin-top", $("#navigation-box").css("height"));
+
+     navbarResizer();
 };
 
 function widthDeterminer() {
@@ -79,11 +84,8 @@ function widthDeterminer() {
 };
 
 function makeFontLarge() {
-     $(".large-lg").addClass("large-lg-css");               // toggles larger font sizes ON
-     $(".small-lg").addClass("small-lg-css");
+     /* i haven't quite decided yet to do with these */
 };
 
 function makeFontSmall() {
-     $(".large-lg").removeClass("large-lg-css");            // toggles larger font sizes OFF
-     $(".small-lg").removeClass("small-lg-css");
 };
