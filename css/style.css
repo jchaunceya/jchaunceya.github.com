@@ -1,36 +1,42 @@
 body {
      color: white;
-     font-family: "Oxygen", sans-serif;
+     font-family: "Montserrat", sans-serif;
 }
 
 .jumbotron {
-     font-family: "Montserrat", sans-serif;
+     font-family: "Raleway", sans-serif;
 
      padding: 0;
      color: white;
      background: url("http://i.imgur.com/VOwHW3S.jpg");
      background-size: cover;
      background-attachment: center;
+     letter-spacing: 1px;
+     line-height: normal;
 
 }
 
 .jumbotron h1 {
+     font-family: "Raleway";
      font-size: 3em;
-     line-height: 1.5em;
-     font-weight: 700;
+     /*line-height: 1.5em;*/
+     font-weight: 900;
+     /*font-style: italic;*/
 }
 
 .jumbotron p {
-     font-family: "Open Sans", sans-serif;
+     font-family: inherit;
      color: #F7F7F9;
-     font-size: 1.3em;
-     line-height: 1.3em;
+     font-size: 1em;
+     line-height: 1.2em;
      font-weight: 300;
      display: block;
 }
 
 .jumbotron span {
      font-weight: 700;
+     /*background-image: linear-gradient(rgba(55,113,190, 0.3), rgba(55,113,190, 0.3));*/
+
 }
 
 .jumbotron .jumbo-text {
@@ -48,6 +54,8 @@ a:hover {
 
 
 #collapsing-content {
+     /*padding: 1em;*/
+     text-align: left;
 
 }
 
@@ -56,17 +64,20 @@ a:hover {
 }
 
  .text-link {
-     font-family: "Montserrat";
-     font-weight: 400;
+     font-family: "Raleway";
+     font-weight: 300;
      color: inherit;
-     display: inline;
-     font-size: 1.7em;
-     line-height: 1.7em;
-     /*font-variant: small-caps;*/
+     display: block;
+     font-size: 1em;
+     line-height: 2em;
      margin: 0;
-     padding: 0;
+     padding: 2em;
      padding-top: .4em;
      padding-bottom: .4em;
+     position: relative;
+     text-align: left;
+     letter-spacing: 1px;
+
 
 }
 
@@ -83,8 +94,14 @@ a:hover {
 }
 
 #collapsing-content {
+     padding: 0;
 }
 
+#navigation-column span {
+     background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3));
+
+
+}
 .nav {
 
 }
@@ -115,12 +132,12 @@ a:hover {
 
 
 
-#toggle-button {
+.toggle-button {
      font-size: 1.75rem;
-     /*padding: .5rem 1rem .5rem 1rem;*/
+     padding: .5rem 1rem .5rem 1rem;
      background-color: white;
      color: #FFF;
-     background-color: #000;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
      border-radius: 0;
 
 }
@@ -130,6 +147,7 @@ a:hover {
 }
 
 #made-by {
+     color: inherit;
      padding: 0;
      padding-left: 1rem;
      margin: 0;
@@ -141,8 +159,7 @@ a:hover {
      padding: 0;
      margin: 0;
      background: none;
-     color: #474747;
-     /*float: left;*/
+     color: #D3D3D3;
 }
 
 #jumbo-one {
@@ -182,7 +199,8 @@ footer {
 }
 
 .nav-link:hover {
-     font-weight: 700;
+     /*font-weight: 700;*/
+     color: #474747;
      /*border: 1px solid black;*/
 }
 
@@ -190,3 +208,101 @@ footer {
      padding: 0;
      margin: 0;
 }
+
+#menu {
+     z-index: 10000;
+
+     /*background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));*/
+     background-color: #FFFFFF;
+     color: #313131;
+     margin: 0;
+
+
+}
+
+#panel {
+     /*z-index: 100;*/
+     /*color: black;*/
+     /*width: 10%;*/
+
+}
+
+#panel button {
+     border: 0;
+     color: white;
+     background-color: #000000;
+     /*background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));*/
+     font-size: 2em;
+}
+
+#menu ul {
+     display: block;
+}
+
+#menu a {
+     color: inherit;
+}
+
+#menu hr {
+     padding: 0;
+     margin: 0;
+     width: 100%;
+}
+
+#menu .nav-item:hover {
+     color: #555555;
+     background-color: #D3D3D3;
+}
+
+.toggle-button:focus, .toggle-button:active, .toggle-button.active, .toggle-button:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.nav-item h4 {
+     font-family: "Lato";
+     margin: 1em 0;
+     padding: 0;
+     font-variant: small-caps;
+
+     font-weight: 800;
+     font-size: 1.6em;
+     font-kerning: normal;
+     letter-spacing: 2px;
+     /*font-style: italic;*/
+     /*line-height: 2em;*/
+
+}
+
+body {
+     background-image: linear-gradient(45deg, #22264b, #b56969 50%, #e6cf8b);
+
+}
+
+@media screen and (min-width: 768px) {
+  /*.slideout-panel {
+    margin-left: 256px;
+  }
+*/
+  .slideout-menu {
+    display: block;
+    }
+  .btn-hamburger {
+    display: none;
+  }
+}
+
+
+.social-media-icon  {
+     display: inline;
+     height: 20px;
+     padding: 0.5em;
+
+
+}
+
+.social-media-icon img {
+}
+
