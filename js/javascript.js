@@ -22,7 +22,7 @@ function navbarResizer() {
      // }
      // else {
           $("#jumbo").css('margin-top', "46px");
-          $("#jumbo").css('padding-top', "2em");
+          $("#jumbo").css('padding-top', "3.5rem");
      // }
 };
 
