@@ -15,15 +15,15 @@ $(document).ready(function() {
 });
 
 function navbarResizer() {
-     if (widthDeterminer() == "xs")
-     {
-          $("#jumbo").css('margin-top', '56px');
-          $("#jumbo").css('padding-top', "1em");
-     }
-     else {
+     // if (widthDeterminer() == "xs")
+     // {
+     //      $("#jumbo").css('margin-top', '56px');
+     //      $("#jumbo").css('padding-top', "1em");
+     // }
+     // else {
           $("#jumbo").css('margin-top', "46px");
           $("#jumbo").css('padding-top', "2em");
-     }
+     // }
 };
 
 function doSomething($size) {
