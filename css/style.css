@@ -5,7 +5,6 @@ body {
 
 .jumbotron {
      font-family: "Raleway", sans-serif;
-
      padding: 0;
      color: white;
      background: url("http://i.imgur.com/VOwHW3S.jpg");
@@ -35,8 +34,6 @@ body {
 
 .jumbotron span {
      font-weight: 700;
-     /*background-image: linear-gradient(rgba(55,113,190, 0.3), rgba(55,113,190, 0.3));*/
-
 }
 
 .jumbotron .jumbo-text {
@@ -49,14 +46,8 @@ a:hover {
      color: currentColor;
 }
 
-
-
-
-
 #collapsing-content {
-     /*padding: 1em;*/
      text-align: left;
-
 }
 
 #info-segment {
@@ -78,13 +69,6 @@ a:hover {
      text-align: left;
      letter-spacing: 1px;
 
-
-}
-
-
-
-.nav-item {
-
 }
 
 #navigation-column {
@@ -99,11 +83,6 @@ a:hover {
 
 #navigation-column span {
      background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3));
-
-
-}
-.nav {
-
 }
 
 .row {
@@ -111,15 +90,11 @@ a:hover {
      padding: auto;
 }
 
-
 .card-grad {
-     /*background-image: linear-gradient(45deg, #22264b, #b56969 50%, #e6cf8b);*/
      border: 0;
      border-radius: 0;
      color: #000;
-
 }
-
 
 .darken {
      background-image:
@@ -129,8 +104,6 @@ a:hover {
   ),
   url("http://i.imgur.com/VOwHW3S.jpg");
 }
-
-
 
 .toggle-button {
      font-size: 1.75rem;
@@ -162,23 +135,12 @@ a:hover {
      color: #D3D3D3;
 }
 
-#jumbo-one {
-}
-
-#jumbo-two {
-}
-
-#jumbo-three {
-}
-
-
 #quote-text {
      color: inherit;
      font-family: "Cardo";
      font-weight: 400;
      font-size: 1.3em;
      line-height: 1.3em;
-     /*font-style: italic;*/
 }
 
 footer {
@@ -188,20 +150,13 @@ footer {
      font-weight: 700;
 }
 
-.fa-icon {
-
-     display: inline;
-}
-
 #fixed-navbar-shit {
      padding: 0;
      margin: 0;
 }
 
 .nav-link:hover {
-     /*font-weight: 700;*/
      color: #474747;
-     /*border: 1px solid black;*/
 }
 
 .nav-item {
@@ -211,27 +166,15 @@ footer {
 
 #menu {
      z-index: 10000;
-
-     /*background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));*/
      background-color: #FFFFFF;
      color: #313131;
      margin: 0;
-
-
-}
-
-#panel {
-     /*z-index: 100;*/
-     /*color: black;*/
-     /*width: 10%;*/
-
 }
 
 #panel button {
      border: 0;
      color: white;
      background-color: #000000;
-     /*background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));*/
      font-size: 2em;
 }
 
@@ -266,26 +209,17 @@ footer {
      margin: 1em 0;
      padding: 0;
      font-variant: small-caps;
-
      font-weight: 800;
      font-size: 1.3em;
      font-kerning: normal;
      letter-spacing: 2px;
-     /*font-style: italic;*/
-     /*line-height: 2em;*/
-
 }
 
 body {
      background-image: linear-gradient(45deg, #22264b, #b56969 50%, #e6cf8b);
-
 }
 
 @media screen and (min-width: 768px) {
-  /*.slideout-panel {
-    margin-left: 256px;
-  }
-*/
   .slideout-menu {
     display: block;
     }
@@ -294,15 +228,9 @@ body {
   }
 }
 
-
 .social-media-icon  {
      display: inline;
      height: 20px;
      padding: 0.5em;
-
-
-}
-
-.social-media-icon img {
 }
 
