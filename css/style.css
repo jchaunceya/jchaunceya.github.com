@@ -231,14 +231,8 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, F
   }
 }
 
-.social-media-icon  {
-     display: inline;
-     height: 20px;
-     padding: 0.5em;
-}
-
 .title-content {
      font-family: Helvetica;
      font-weight: 800;
-     
+     padding: 1em;
 }    
