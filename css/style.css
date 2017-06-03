@@ -4,7 +4,8 @@ body {
 }
 
 .jumbotron {
-     font-family: "Raleway", sans-serif;
+     font-family: "Libre Franklin", sans-serif;
+     font-weight: 700;
      padding: 0;
      color: white;
      background: url("http://i.imgur.com/VOwHW3S.jpg");
@@ -16,7 +17,7 @@ body {
 }
 
 .jumbotron h1 {
-     font-family: "Helvetica";
+     font-family: "Libre Franklin", sans-serif;
      font-size: 3em;
      /*line-height: 1.5em;*/
      font-weight: 900;
@@ -55,7 +56,6 @@ a:hover {
 }
 
  .text-link {
-     font-family: "Raleway";
      font-weight: 300;
      color: inherit;
      display: block;
@@ -232,7 +232,7 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, F
 }
 
 .title-content {
-     font-family: Helvetica;
+     font-family: "Libre Franklin";
      font-weight: 800;
      padding: 1em;
 }
