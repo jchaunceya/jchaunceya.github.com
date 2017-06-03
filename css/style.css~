@@ -4,7 +4,7 @@ body {
 }
 
 .jumbotron {
-     font-family: "Libre Franklin", sans-serif;
+     font-family: "Raleway", sans-serif;
      padding: 0;
      color: white;
      background: url("http://i.imgur.com/VOwHW3S.jpg");
@@ -16,7 +16,7 @@ body {
 }
 
 .jumbotron h1 {
-     font-family: "Open Sans";
+     font-family: "Helvetica";
      font-size: 3em;
      /*line-height: 1.5em;*/
      font-weight: 900;
@@ -46,9 +46,17 @@ a:hover {
      color: currentColor;
 }
 
+#collapsing-content {
+     text-align: left;
+}
+
+#info-segment {
+     height: 100%;
+}
+
  .text-link {
-     font-family: "Libre Franklin";
-     font-weight: 600;
+     font-family: "Raleway";
+     font-weight: 300;
      color: inherit;
      display: block;
      font-size: 1em;
@@ -61,6 +69,20 @@ a:hover {
      text-align: left;
      letter-spacing: 1px;
 
+}
+
+#navigation-column {
+     padding-left: 0;
+     padding-right: 0;
+
+}
+
+#collapsing-content {
+     padding: 0;
+}
+
+#navigation-column span {
+     background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3));
 }
 
 .row {
@@ -97,11 +119,40 @@ a:hover {
      padding-top: 1rem;
 }
 
+#made-by {
+     color: inherit;
+     padding: 0;
+     padding-left: 1rem;
+     margin: 0;
+}
+
+#made-by-card {
+     font-family: inherit;
+     border: none;
+     padding: 0;
+     margin: 0;
+     background: none;
+     color: #D3D3D3;
+}
+
+#quote-text {
+     color: inherit;
+     font-family: "Cardo";
+     font-weight: 400;
+     font-size: 1.3em;
+     line-height: 1.3em;
+}
+
 footer {
      font-family: "Cardo";
      padding: 0;
      font-size: 1.3em;
      font-weight: 700;
+}
+
+#fixed-navbar-shit {
+     padding: 0;
+     margin: 0;
 }
 
 .nav-link:hover {
@@ -111,6 +162,39 @@ footer {
 .nav-item {
      padding: 0;
      margin: 0;
+}
+
+#menu {
+     z-index: 10000;
+     background-color: #FFFFFF;
+     color: #313131;
+     margin: 0;
+}
+
+#panel button {
+     border: 0;
+     color: white;
+     background-color: #000000;
+     font-size: 2em;
+}
+
+#menu ul {
+     display: block;
+}
+
+#menu a {
+     color: inherit;
+}
+
+#menu hr {
+     padding: 0;
+     margin: 0;
+     width: 100%;
+}
+
+#menu .nav-item:hover {
+     color: #555555;
+     background-color: #D3D3D3;
 }
 
 .toggle-button:focus, .toggle-button:active, .toggle-button.active, .toggle-button:focus:active {
@@ -147,8 +231,14 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, F
   }
 }
 
+.social-media-icon  {
+     display: inline;
+     height: 20px;
+     padding: 0.5em;
+}
+
 .title-content {
      font-family: Helvetica;
      font-weight: 800;
-     padding: 1em;
+     
 }    
