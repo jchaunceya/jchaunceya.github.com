@@ -49,7 +49,6 @@ body {
      color: inherit;
      display: block;
      font-size: 1em;
-     line-height: 2em;
      margin: 0;
      padding: 2em;
      padding-top: .4em;
@@ -189,11 +188,10 @@ footer {
      font-family: "Libre Franklin", sans-serif;
      margin: 1em 0;
      padding: 0;
-     font-variant: small-caps;
-     font-weight: 800;
-     font-size: 1.3em;
+     /*font-variant: small-caps;*/
+     font-weight: 900;
+     font-size: 1.5em;
      font-kerning: normal;
-     letter-spacing: 2px;
 }
 
 body {
@@ -235,7 +233,6 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, F
 }
 
 .text-square {
-	font-family: "Open Sans", sans-serif;
 	color: #313131;
 	font-weight: 600;
 	background: #FFF;
@@ -249,10 +246,35 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, F
 .text-square hr {
 	margin: 0;
 	padding: 0;
-
 }
 
 .main-part .col-xs-12 {
 	margin: 0;
 	padding: 0 0;
+}
+
+#email-button {
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+.text-link h4 {
+	font-size: 1.7em;
+	padding: 1em 0 0  0;
+	margin: 0;
+}
+.text-link p {
+	padding: 0;
+}
+
+.entry-card {
+	padding: .5em;
+}
+.entry-card p {
+	font-weight: 300;
+	font-size: 1em;
+}
+
+.entry-card h5 {
+	font-weight: 600;
 }

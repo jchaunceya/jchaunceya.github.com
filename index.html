@@ -20,21 +20,49 @@
 	<body>
 	     <nav class="nav text-xs-center" id="menu">
 	          <ul class="nav container-fluid text-xs-left fixed" id="collapsing-content" data-parent="#collapsing-content">
-	          <li class="nav-item"><a class="nav-link btn text-link" href="#" role="button"><h4>JOHN ATHERTON</h4></a></li>
-	          <hr>
+	          <li class="nav-item">
+				<div class="text-link" href="#">
+					<h4>John Atherton</h4>
+					<p id="email-button">
+						<script language="JavaScript">
+							var username = "jchaunceya";
+							var hostname = "g.ucla.edu";
+							var linktext = username + "@" + hostname ;
+							document.write(linktext);
+						</script>
+					</p>
+				</div>
+			</li>
+			<hr>
 	          <li class="nav-item" id="li-target"><a class="nav-link btn text-link" href="#" role="button" id="link-target"><span>about</span></a></li>
 	          <hr>
 	          <li class="nav-item"><a class="nav-link btn text-link" href="#" role="button">experience</a></li>
 	          <hr>
-	          <li class="nav-item"><a class="nav-link btn text-link" href="https://docs.google.com/document/d/14WFvARNsuLltEgw-l9pIYWkPfpq7bBkY1DfaoS0vvyE/edit?usp=sharing" role="button" target="_blank">resume</a></li>
-	          <hr>
-	          <li class="nav-item"><a class="nav-link btn text-link dropdown-toggler"  data-toggle="collapse" aria-expanded="false" aria-haspopup="true" href="#email_slider" role="button">contact</a></li>
-	          <hr>
-		     <div class="collapse" id="email_slider">
-				<div class="card card-block">
-					<p>jchaunceya at you see LA .edu</p>
-		     	</div>
-			</div>
+	          <li class="nav-item"><a class="nav-link btn text-link" href="https://www.dropbox.com/s/gv7nbfeulrgtqtk/JohnAtherton.pdf?dl=0" role="button" target="_blank">résumé</a></li>
+			<hr>
+			<!-- <script language="JavaScript">
+				var username = "jchaunceya";
+				var hostname = "g.ucla.edu";
+				var linktext = username + "@" + hostname ;
+				document.write("<li class='nav-item'><a class='text-link' href='" + "mail" + "to:" + username + "@" + hostname + "'>" + "contact" + "</a></li>");
+			</script> -->
+			<!-- <li class="nav-item"><a class="nav-link btn text-link dropdown-toggler"  data-toggle="collapse" aria-expanded="false" aria-haspopup="true" href="#email_slider" role="button">contact</a></li>
+				<div class="collapse" id="email_slider">
+					<li class="nav-item">
+					<div class="card card-block">
+						<script language="JavaScript">
+							var username = "jchaunceya";
+							var hostname = "g.ucla.edu";
+							var linktext = username + "@" + hostname ;
+							document.write("<p class='text-link'>" + linktext + "</p>");
+						</script>
+			     	</div>
+				</li>
+				</div> -->
+
+
+
+
 		</nav>
 
 		<main id="panel">
@@ -58,11 +86,12 @@
 				<div class="col-xs-12">
 					<div class="text-square">
 						<h3>Projects</h3>
-						<div>
-							<p>Twitter Data mining</p>
-						</div>
-						<div>
-							<p>Twitter Data mining</p>
+						<div class="entry-card">
+							<h5>Twitter Data mining</h5>
+							<p>Lead a team of students creating a Python classification program for twitter data to assist professor in his research
+- Manually annotate tweets and store them in separate MySQL database, set up data cleansing / feature vector regularization pipeline for quick processing
+- Looked at several different classifiers: Multinomial/Bernoulli Naive Bayes, Decision Tree, Neural Networks, Random Forest, but ended up selecting support vector machine classifier algorithm and tweaked parameters as well as testing different data cleansing techniques to improve accuracy
+- Identify tweets relevant to research with program</p>
 						</div>
 					</div>
 				</div>
@@ -70,20 +99,26 @@
 					<hr>
 					<div class="text-square">
 						<h3>Experience</h3>
-						<div>
-							<p>Research Assistant</p>
+						<div class="entry-card">
+							<h5>Research Assistant at UCLA Language Processing Laboratory</h5>
+								<p>Duties involve greeting subjects, preparing necessary documentation and conducting interviews to collect participant demographic information
+								After I obtain participants' informed consent, I then instruct them through the experiment (usually operating eye-tracking equipment) and collect experimental data.
+	 							After it is over, I debrief subjects and conduct another interview regarding their observations and experience.
+	 							Discuss the results of the experiment with supervising professor
+	 							Meet regularly to discuss driving ideas and methods</p>
 						</div>
+						<!-- <hr>
 						<div>
-							<p>Research Assistant</p>
-						</div>
+							<h5>Campaign Outreach</h5>
+						</div> -->
 					</div>
 				</div>
 				<div class="col-xs-12">
 					<hr>
 					<div class="text-square">
 						<h3>About me</h3>
-						<div>
-							<p>XXXXXXX</p>
+						<div class="entry-card">
+							<h5>Coming soon!</h5>
 						</div>
 					</div>
 				</div>
