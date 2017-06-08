@@ -8,7 +8,7 @@ body {
      font-weight: 700;
      /*padding: 0;*/
      color: white;
-     background: url("http://i.imgur.com/VOwHW3S.jpg");
+	background-color: black;
      background-size: cover;
      background-attachment: center;
      letter-spacing: 0.5px;
@@ -236,7 +236,7 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, F
 	color: #313131;
 	font-weight: 600;
 	background: #FFF;
-	margin: 1em;
+	margin: 1.5em;
 }
 
 .text-square p {
@@ -255,7 +255,7 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, F
 
 #email-button {
 	font-style: italic;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 .text-link h4 {
@@ -269,6 +269,7 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, F
 
 .entry-card {
 	padding: .5em;
+
 }
 .entry-card p {
 	font-weight: 300;
@@ -276,5 +277,23 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, F
 }
 
 .entry-card h5 {
-	font-weight: 600;
+	font-style: italic;
+	font-weight: 800;
+	margin-bottom: 0;
+	font-size: 1.25em;
+}
+
+.entry-card h6 span {
+	color: #313131;
+	/*font-style: normal;*/
+	font-style: italic;
+	font-weight: 400;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+#portrait {
+	width: 40%;
+	border: 2px white;
+	margin: 1em;
 }
