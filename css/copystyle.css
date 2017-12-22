@@ -1,26 +1,26 @@
 body {
      color: white;
-     font-family: "Helvetica", sans-serif;
+     font-family: "Libre Franklin", sans-serif;
+	margin: 0;
+	background: #B993D6; /* fallback for old bsers */
+	background: -webkit-linear-gradient(to left, #B993D6 , #8CA6DB); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .jumbotron {
-     font-family: "Raleway", sans-serif;
-     padding: 0;
-     color: white;
-     background: url("http://i.imgur.com/VOwHW3S.jpg");
+     font-family: "Libre Franklin", sans-serif;
+     font-weight: 700;
+     color: inherit;
+	background-color: black;
      background-size: cover;
      background-attachment: center;
-     letter-spacing: 1px;
+     letter-spacing: 0.5px;
      line-height: normal;
-
 }
 
 .jumbotron h1 {
-     font-family: "Helvetica";
-     font-size: 3em;
-     /*line-height: 1.5em;*/
-     font-weight: 900;
-     /*font-style: italic;*/
+     font-family: "Libre Franklin", sans-serif;
+     font-weight: 800;
 }
 
 .jumbotron p {
@@ -29,38 +29,25 @@ body {
      font-size: 1em;
      line-height: 1.2em;
      font-weight: 500;
-     display: block;
 }
 
 .jumbotron span {
      font-weight: 700;
 }
 
-.jumbotron .jumbo-text {
-     padding-top: 2.5rem;
-     padding-bottom: 2rem;
-}
-
-a:hover {
+/*a:hover {
      text-decoration: none;
      color: currentColor;
-}
+}*/
 
 #collapsing-content {
      text-align: left;
 }
-
-#info-segment {
-     height: 100%;
-}
-
  .text-link {
-     font-family: "Raleway";
      font-weight: 300;
      color: inherit;
      display: block;
      font-size: 1em;
-     line-height: 2em;
      margin: 0;
      padding: 2em;
      padding-top: .4em;
@@ -68,12 +55,6 @@ a:hover {
      position: relative;
      text-align: left;
      letter-spacing: 1px;
-
-}
-
-#navigation-column {
-     padding-left: 0;
-     padding-right: 0;
 
 }
 
@@ -86,15 +67,10 @@ a:hover {
 }
 
 .row {
-     margin: auto;
-     padding: auto;
+     margin: 0;
+     padding: 0;
 }
 
-.card-grad {
-     border: 0;
-     border-radius: 0;
-     color: #000;
-}
 
 .darken {
      background-image:
@@ -106,23 +82,15 @@ a:hover {
 }
 
 .toggle-button {
-     font-size: 1.75rem;
      padding: .5rem 1rem .5rem 1rem;
      background-color: white;
      color: #FFF;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-     border-radius: 0;
-
-}
-
-.padding-top-target {
-     padding-top: 1rem;
+     border-radius: 1px;
 }
 
 #made-by {
      color: inherit;
      padding: 0;
-     padding-left: 1rem;
      margin: 0;
 }
 
@@ -134,25 +102,11 @@ a:hover {
      background: none;
      color: #D3D3D3;
 }
-
-#quote-text {
-     color: inherit;
-     font-family: "Cardo";
-     font-weight: 400;
-     font-size: 1.3em;
-     line-height: 1.3em;
-}
-
 footer {
      font-family: "Cardo";
      padding: 0;
      font-size: 1.3em;
      font-weight: 700;
-}
-
-#fixed-navbar-shit {
-     padding: 0;
-     margin: 0;
 }
 
 .nav-link:hover {
@@ -178,10 +132,6 @@ footer {
      font-size: 2em;
 }
 
-#menu ul {
-     display: block;
-}
-
 #menu a {
      color: inherit;
 }
@@ -205,21 +155,13 @@ footer {
 }
 
 .nav-item h4 {
-     font-family: "Lato";
+     font-family: "Libre Franklin", sans-serif;
      margin: 1em 0;
      padding: 0;
-     font-variant: small-caps;
-     font-weight: 800;
-     font-size: 1.3em;
+     /*font-variant: small-caps;*/
+     font-weight: 900;
+     font-size: 1.5em;
      font-kerning: normal;
-     letter-spacing: 2px;
-}
-
-body {
-background: #B993D6; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #B993D6 , #8CA6DB); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
 }
 
 @media screen and (min-width: 768px) {
@@ -231,14 +173,115 @@ background: linear-gradient(to left, #B993D6 , #8CA6DB); /* W3C, IE 10+/ Edge, F
   }
 }
 
-.social-media-icon  {
-     display: inline;
-     height: 20px;
-     padding: 0.5em;
+.title-content {
+     font-family: "Libre Franklin", sans-serif;
+     font-weight: 800;
+     /*padding: 1em;*/
 }
 
-.title-content {
-     font-family: Helvetica;
-     font-weight: 800;
-     
-}    
+.main-part {
+	/*padding: 1em 0 1em 0;*/
+	margin: 0;
+	background: white;
+}
+
+.main-part h3 {
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: 100;
+	color: black;
+	font-size: 2.5em;
+	font-variant: italics;
+	margin: 0;
+	padding-left: 0.5em;
+	padding-top: 0.5em;
+	font-style: italic;
+}
+
+.text-square {
+	color: #313131;
+	font-weight: 600;
+	background: #FFF;
+}
+
+.text-square p {
+	padding: 1em;
+}
+
+.text-square hr {
+	margin: 0;
+	padding: 0;
+}
+
+.main-part .col-xs-12 {
+	margin: 0;
+	padding: 0 0;
+}
+
+#email-button {
+	font-style: italic;
+	font-size: 1em;
+}
+
+.text-link h4 {
+	font-size: 1.7em;
+	padding: 1em 0 0  0;
+	margin: 0;
+	font-style: italic;
+}
+.text-link p {
+	padding: 0;
+}
+
+.entry-card {
+	padding: 2em;
+	padding-left: 4em;
+}
+
+.entry-card p {
+	font-weight: 300;
+	padding: 0.5em;
+	padding-left: 2em;
+	margin: 0;
+}
+
+.entry-card h5 {
+	margin: 0;
+	padding: 0;
+	font-weight: 800;
+	font-style: italic;
+	font-size: 1.7em;
+}
+.entry-card h5 span {
+	font-weight: 400;
+}
+
+.entry-card h6 {
+	font-size: inherit;
+	margin: 0;
+	padding: 0.5em 0;
+	padding-left: 1em;
+}
+.entry-card h6 span {
+	color: #313131;
+	/*font-style: normal;*/
+	font-style: italic;
+	font-weight: 500;
+}
+
+#portrait {
+	width: 20%;
+	border: 2px white;
+	margin: 1em;
+}
+
+.header-line {
+	width: 95%
+     font-size: 1px;
+     color: rgba(0, 0, 0, 0);
+     line-height: 1px;
+
+}
+
+.title-box {
+	padding: 1em;
+}

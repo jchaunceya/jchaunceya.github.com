@@ -2,7 +2,6 @@ body {
     font-family: "Libre Franklin", sans-serif;
 
     overflow: scroll;
-    color: #000;
 
 }
 
@@ -16,7 +15,7 @@ div#navbar.top-bar {
 }
 
 .top-bar, .top-bar ul.menu {
-        background-color: lightseagreen;
+        background-color: inherit;
 
 }
 
@@ -60,7 +59,6 @@ li.menu-text a {
 .cell-media {
     text-align: center;
 
-        background-color:dodgerblue;
     color:white;
 
 }
@@ -91,3 +89,25 @@ input {
     color: white;
 }
 
+.cell {
+    text-align: center;
+}
+
+.cell h3 {
+    font-weight: 900;
+}
+
+.section-wrapper {
+    background-color: #DDDDDD;
+    padding: 1em;
+    margin: 0.5em 0;
+    color:#222;
+}
+
+.section-wrapper p {
+
+}
+
+.text-wrapper p {
+    margin: 0;
+}
