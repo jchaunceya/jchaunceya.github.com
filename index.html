@@ -1,216 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html style="height:100%;">
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
           integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
     <link rel="stylesheet" type="text/css" href="./foundation-6/css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="./foundation-6/css/foundation-icons/foundation-icons.css">
 
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100i,200i,300,400,400i,600,600i,700,800,900,900i"
-          rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans"
-          rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100i,200i,300,400,400i,600,600i,700,800,900,900i"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans"rel="stylesheet">
+    <title>John Atherton</title>
 </head>
-<body>
+<body style="height:100%;background-color:#FFF;">
 
-<div id="main-div">
-    <div class="top-bar" id="navbar">
-        <div class="top-bar-left">
-            <ul class="menu">
-                <li class="menu-text top-bar-anchor top-bar-header"><a class="" href="/">JOHN ATHERTON</a></li>
-                <li class="menu-text top-bar-anchor"><a href="#problem">About me</a></li>
-                <li class="menu-text top-bar-anchor"><a href="#idea">Experience</a></li>
-                <li class="menu-text top-bar-anchor"><a href="#selection">Projects</a></li>
-                <li class="menu-text top-bar-anchor"><a href="">Resume</a></li>
-            </ul>
-        </div>
-        <div class="top-bar-right">
-            <ul class="menu">
-                <li class="menu-text top-bar-anchor"><a href="#team">Contact</a></li>
-            </ul>
-        </div>
-    </div>
+<div id="main-div" style="height:100%;">
 
-    <div class="grid-container">
-        <div class="grid-x">
-            <div class="cell " id="jumbo">
-                <div class="grid-container " id="jumbo-row">
-                    <div class="grid-x" id="jumbotron-1">
-                        <div class="cell" id="cell-spacer"></div>
-                        <div class="medium-2 cell"></div>
-                        <div class=" medium-8 cell" id="jumbotron-text-box">
-                            <h2 id="announcer">hello!</h2>
-                            <h2>my name is john atherton.</h2>
-                            <img class="img-circle" src="./img/portrait.jpg" id="portrait">
-                            <h2>i'm a software developer currently studying at UCLA</h2>
-                        </div>
-                        <div class="medium-2 cell"></div>
+	<div class="grid-container">
+		<div class="grid-x" style="height:100%;">
+			<div class="cell" id='cell-spacer'></div>
+			<div class="medium-2 small-1 cell"></div>
+			<div class="medium-8 small-10 cell text-center " id='media-container' >
+				<div class="grid-wrapper">
+					<div class="grid-x">
+						<div class="cell medium-2 small-1">
+						</div>
+						<div class="cell medium-8 small-10  section-wrapper">
+							<h1 class="item-title" id='name'>JOHN ATHERTON</h1>
+							<h3 class="item-title"><a href="https://www.dropbox.com/s/kli0ck1jur6g9m1/resume-1-3.pdf?dl=0" target="_blank">resume</a></h3>
 
-                    </div>
-                </div>
-            </div>
-            <div class="medium-2 cell"></div>
-            <div class="medium-8 cell ">
-                <div class="grid-wrapper">
-                    <h3>education</h3>
-                    <div class="section-wrapper" style='background-color: #F8F8F8;'>
-		      <h4>University of California, Los Angeles</h4>
-		      <h5>Linguistics and Computer Science B.A.</h5>
-		      <h5>Statistics B.S.</h5>
-                        <p>Class of 2018</p>
-                    </div>
-                </div>
-            </div>
-            <div class="medium-2 cell"></div>
-            <div class="medium-2 cell"></div>
-            <div class="medium-8 cell ">
-                <div class="grid-wrapper">
-                    <h3 id="experience">projects</h3>
-                    <div class="section-wrapper" style='background-color: #F8F8F8;'>
-                        <h5>Twitter Data processing and Classification <span>and</span> Named Entity Extraction
-                        </h5>
-                        <div class="text-wrapper">
-                            <p>In recent years, many universities have announced new campaigns focused on improving
-                                access
-                                to
-                                higher education to students from traditionally marginalized communities.</p>
-                            <p>Once such strategy is to hire regional recruiters to speak to high schoolers, either
-                                individually
-                                or as a presentation to a group of students.</p>
-                            <p>Often, these recruiters advertise their visits through Twitter.</p>
-                            <!-- EMBED TWEET HERE -->
-                            <p> We were interested in obtaining information about these events. </p>
-                            <p>Lead a team of students creating a Python classification program for twitter data to
-                                assist
-                                professor in his research. </p>
-                        </div>
-                    </div>
-		    <div class="section-wrapper" style='background-color: #F8F8F8;'>
-		      
-		      </div>
-                </div>
-                <!--<p>We manually annotated tweets and stored them in separate-->
-                <!--MySQL-->
-                <!--database, set up data cleansing / feature vector regularization pipeline for efficient-->
-                <!--processing. We looked at several different classifiers: Multinomial/Bernoulli Naive-->
-                <!--Bayes,-->
-                <!--Decision Tree, Neural Networks, Random Forest, but ended up selecting support vector-->
-                <!--machine-->
-                <!--classifier algorithm and tweaked parameters as well as testing different data cleansing-->
-                <!--techniques to improve accuracy. Identify tweets relevant to research with program</p>-->
-            </div>
-            <div class="medium-2 cell"></div>
-            <div class="medium-2 cell"></div>
-            <div class="medium-8 cell ">
-                <div class="grid-wrapper">
-                    <h3>experience</h3>
-                    <div class="section-wrapper" style='background-color: #F8F8F8;'>
-                        <h5>Application Analyst Intern at Sourceability North America</h5>
-                        <div class="text-wrapper">
-                            <p>Software documentation .... </p>
-                        </div>
+							<!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                                                        <!-- <div class="grid-x text-left" style="padding-left:0;">												        -->
+							<!-- 	<div class="medium-3 small-1 cell"></div>													        -->
+							<!-- 																			        -->
+							<!-- 	<div class="medium-2 small-3 cell">														        -->
+							<!-- 		<a href="https://www.facebook.com/jack.c.atherton" style="color:black;" target='_blank'><i class="fi-social-facebook icon"></i></a>	        -->
+							<!-- 	</div>																		        -->
+							<!-- 	<div class="medium-2 small-3 cell">														        -->
+							<!-- 		<a href="https://www.instagram.com/jchaunceya/" style="color:black;" target="_blank"><i class="fi-social-instagram icon"></i></a>	        -->
+							<!-- 	</div>																		        -->
+							<!-- 	<div class="medium-2 small-3 cell">														        -->
+							<!-- 		<a href="https:"><i class="fi-social-linkedin icon"></i></a>										        -->
+							<!-- 	</div>																		        -->
+							<!-- 	<div class="medium-3 cell"></div>														        -->
+							<!-- </div>																		        -->
 
-                    <div class="section-wrapper" style='background-color: #F8F8F8;'>
-                        <h5>Research Assistant</h5>
-                        <h5>at UCLA Language Processing Laboratory</h5>
-                        <div class="text-wrapper">
-                            <p>Duties involve greeting subjects, preparing necessary documentation and conducting
-                                interviews
-                                to
-                                collect participant demographic information
-                                After I obtain participants' informed consent, I then instruct them through the
-                                experiment
-                                (usually operating eye-tracking equipment) and collect experimental data.
-                                After it is over, I debrief subjects and conduct another interview regarding their
-                                observations
-                                and experience.
-                                Discuss the results of the experiment with supervising professor
-                                Meet regularly to discuss driving ideas and methods</p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
 
-            </div>
-            <div class="medium-2 cell"></div>
-            <div class="medium-2 cell"></div>
-
-            <div class="medium-8 cell">
-                <div class="grid-wrapper">
-
-                    <h3>About me</h3>
-                    <div class="section-wrapper" style='background-color: #F8F8F8;'>
-                        <h5>Coming soon!</h5>
-
-                        <div class="text-wrapper">
-                            <p>coming soon bb</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="medium-2 cell"></div>
-        </div>
-
-    </div>
-    <div class=" cell " id="made-by-card">
-        <p class="" id="made-by">
-            <small class="muted">Made by John Atherton in 2017 with <a href="#">Foundation</a> and <a href="#">some
-                other thing</a></small>
-        </p>
-    </div>
+		<!--				</div>
+                                                        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------->
+						<div class="cell medium-2 small-1"></div>
+					</div>
+				</div>
+			</div>
+			<div class="medium-2 small-1"
 
 </div>
-
+</div>
+</div>
 <script src="foundation-6/js/vendor/jquery.js"></script>
 <script src="foundation-6/js/vendor/foundation.js"></script>
 
 
 <script>
+	var eleh = parseInt(document.getElementById('media-container').clientHeight);
+	var vpHeight = parseInt(document.getElementById('main-div').style.height);
+	var vh = (vpHeight - eleh)/2;
+	document.getElementById('announcer').innerHTML = document.getElementById('main-div').style.height;
 
-    function isPrime(num) {
-        for (i = 0; i < num; i++) {
-            if (num % i === 0) return false;
-        }
-        return true;
-    }
-    var height = parseInt($("#navbar").outerHeight());
-    height = (2 * height) + "px";
-    $("#cell-spacer").css("height", height);
-
-    //    $('.').each(function (i, obj) {
-    //        if (isPrime(i)) {
-    //            $(this).css("background-color", "dodgerblue")
-    //        }
-    //        else if (i % 2 === 0) {
-    //            $(this).css("background-color", "#cccccc");
-    //
-    //        }
-    //        else {
-    //            $(this).css("background-color", "darkgoldenrod");
-    //        }
-    //    })
-
-
-    $('#portrait').css("height", (parseInt(height) * 2) + "px");
-    $('#portrait').css("width", (parseInt(height) * 2) + "px");
-
-    $('.grid-wrapper').css("padding", "1em");
-    $('.grid-wrapper').css("text-align", "left");
-
-    $('.grid-wrapper h3').css("padding", "0.25em");
-    $('.grid-wrapper h3').css("font-style", "italic");
-    $('.grid-wrapper h3').css("font-weight", "200");
-    $('.grid-wrapper h3').css("font-size", "3em");
-
-    $('.grid-wrapper h5').css("line-height", "1.1");
-    $('.grid-wrapper h5').css("font-weight", "800");
-    $('.grid-wrapper p').css("font-family", "Open Sans, sans-serif");
 
     var x = $('#navbar').outerWidth();
     $('#announcer').innerHTML(x);
