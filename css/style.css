@@ -44,6 +44,7 @@ a:hover {
 }
 .grid-wrapper h3 {
 	font-size: 2em;
+	font-style: italic;
 	font-weight: 200;
 	padding: 0;
 	color: #444;
