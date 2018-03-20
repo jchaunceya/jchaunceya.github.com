@@ -1,4 +1,5 @@
-img
 CNAME
 .DS_Store
 .idea
+static/
+old-index.html

@@ -5,51 +5,6 @@ body {
 
 }
 
-div#navbar.top-bar {
-    background-color: lightseagreen;
-    color: white;
-    position: fixed;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.top-bar, .top-bar ul.menu {
-        background-color: lightseagreen;
-
-}
-
-li.menu-text.top-bar-header a{
-    color:white;
-}
-
-li.menu-text {
-    margin: auto 0;
-    padding: 0;
-}
-li.menu-text a {
-    color: white;
-    margin: 0;
-    padding: 0;
-}
-
-.top-bar ul.menu {
-    color: white;
-}
-
-.cell-spacer {
-    height: 10%;
-}
-.top-bar-header {
-    /*font-style: italic;*/
-    font-weight: 800;
-    font-size:1.5em;
-    color: #FFF;
-}
-
-.top-bar-header:hover {
-    color: inherit;
-}
 
 .cell-spacer {
     /*height: 300px;*/
@@ -84,6 +39,7 @@ input {
     margin: 0.5em;
 }
 
-.top-bar-anchor {
-    color: white;
-}
+.cell-contents {
+      font-family: "Libre Franklin";
+      padding: 0.5em;
+}     
